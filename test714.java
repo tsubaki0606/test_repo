@@ -1,4 +1,4 @@
 public class test714 {
-  public static void Demo{
+  public static void main(String[] args){
   }
 }
