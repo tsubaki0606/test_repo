@@ -35,6 +35,16 @@ public class test714 {
       t++;
     }
     System.out.println(res);
+    Scanner sc1 = new Scanner(System.in);
+    System.out.println("请输入姓名");
+    String name = sc1.nextLine();
+    System.out.println("请输入年龄");
+    int age = sc1.nextInt();
+    System.out.println("请输入工资");
+    float salary = sc1.nextFloat();
+    System.out.println("name:"+name+"\n"+"age:"+age+"\n"+"salary:"+salary);
+    sc1.close();
+
     
   }
 }
